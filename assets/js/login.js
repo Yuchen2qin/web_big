@@ -42,7 +42,7 @@ $(function () {
             $('#link_login').click()
         })
     })
-
+// 监听登录表单的提交事件
     $('#form_login').submit(function(e){
         e.preventDefault()
         $.ajax({
